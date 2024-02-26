@@ -15,11 +15,11 @@ $ cd altametrics-frontend
 $ npm install
 ```
 
-4. Start the application locally (should open at http://localhost:5137)
+4. Start the application locally (should open at http://localhost:5173)
 ```bash
 $ npm run dev
 ```
-5. Credentials are: 
+5. Credentials to log-into the application are: 
 ```bash
   user@example.com
 ```
