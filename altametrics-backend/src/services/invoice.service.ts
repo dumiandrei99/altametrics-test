@@ -11,6 +11,13 @@ export class InvoiceService {
       where:{
         id: invoiceId
       },
+      include: {
+        user: {
+          select: {
+            name: true
+          }
+        }
+      }
     });
   }
 
